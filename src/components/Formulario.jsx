@@ -27,13 +27,13 @@ const Formulario = ({ onSubmit, setAlert }) => {
       colaborador.telefono === ""
     ) {
       setAlert({
-        msg: "Debe completar todos los campos",
+        msg: "Debe completar todos los campos 😖",
         color: "danger",
       });
       return;
     }
     setAlert({
-      msg: "Agregado exitosamente",
+      msg: "Agregado exitosamente 😊",
       color: "success",
     });
 
