@@ -21,4 +21,11 @@ Recibí y acepté las pull requests del siguiente compañero:
    2- commit se agregan emojis en los mensajes de alertas 
 
 
+-[Jorge Lopez](https://github.com/jorgelopezd)
+
+   1-  commit se elimina el logo react.svg
+
+   2- commit se agregan emojis en los mensajes de alertas 
+
+
 # Base-datos-colaboradores
