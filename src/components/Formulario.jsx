@@ -94,7 +94,7 @@ const Formulario = ({ onSubmit, setAlert }) => {
           value={colaborador.telefono}
         />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button className="btn" type="submit">
         Agregar 
       </Button>
     </Form>

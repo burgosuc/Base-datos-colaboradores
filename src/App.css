@@ -6,10 +6,17 @@
   font-family: "Inconsolata", monospace;
   font-weight: 300;
 }
+.fa-user-xmark {
+  color: #cc4c4c;
+  transition: color 0.3s;
+}
 .List {
   background-color: rgb(94, 194, 172);
   padding: 20px;
   border-radius: 10px;
+}
+.TituloPrincipal {
+  text-align: left;
 }
 .FormAdd {
   background-color: rgb(94, 194, 172);
@@ -23,7 +30,7 @@
   .contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
   }
@@ -58,7 +65,7 @@
   .contenedor {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
     gap: 10px;
   }
@@ -70,7 +77,7 @@
   .contenedor {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
   }

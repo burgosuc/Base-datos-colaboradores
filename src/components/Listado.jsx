@@ -22,10 +22,11 @@ const Listado = ({ colaboradores, onDelete }) => {
             <td data-label="Edad">{c.edad}</td>
             <td data-label="Cargo">{c.cargo}</td>
             <td data-label="Teléfono">{c.telefono}</td>
-            <td data-label="Acciones">
-              <Button variant="danger" onClick={() => onDelete(c.id)}>
-                Eliminar
-              </Button>
+            <td data-label="Acciones" className="icondelete">
+              <i
+                className="fa-solid fa-user-xmark"
+                onClick={() => onDelete(c.id)}
+              ></i>
             </td>
           </tr>
         ))}

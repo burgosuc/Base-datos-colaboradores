@@ -47,7 +47,7 @@ function App() {
     <>
       <div className="contenedor">
         <div className="List">
-          <h1>Lista de Colaboradores</h1>
+          <h1 className="TituloPrincipal"><i class="fa-solid fa-user-group"></i> Lista de Colaboradores</h1>
           <Buscador onChange={handleChange} search={search} />
           <Listado
             colaboradores={filteredColaboradores}
